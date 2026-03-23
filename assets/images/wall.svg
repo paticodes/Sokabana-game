@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #ad3c04;
+      }
+
+      .cls-2 {
+        fill: #632800;
+      }
+
+      .cls-3 {
+        fill: #f9ab2d;
+      }
+
+      .cls-4 {
+        fill: #fddf64;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer_1">
+    <g>
+      <g>
+        <rect class="cls-1" x="7" y="7" width="146" height="146"/>
+        <path class="cls-2" d="M146,14v132H14V14h132M160,0H0v160h160V0h0Z"/>
+      </g>
+      <g>
+        <polygon class="cls-4" points="144.87 145.54 145.54 145.54 145.54 95.69 136.95 95.69 136.95 136.95 93.86 136.95 93.86 145.54 136.95 145.54 144.87 145.54"/>
+        <rect class="cls-4" x="66.33" y="136.95" width="18.67" height="8.59"/>
+        <rect class="cls-4" x="48.46" y="136.95" width="9.18" height="8.59"/>
+        <rect class="cls-4" x="136.95" y="69.39" width="8.59" height="18.67"/>
+        <rect class="cls-4" x="136.95" y="51.53" width="8.59" height="9.18"/>
+      </g>
+      <g>
+        <polygon class="cls-3" points="14.85 13.69 14.18 13.69 14.18 63.55 22.77 63.55 22.77 35.13 37.02 35.13 37.02 22.28 65.86 22.28 65.86 13.69 22.77 13.69 14.85 13.69"/>
+        <rect class="cls-3" x="74.71" y="13.69" width="18.67" height="8.59"/>
+        <rect class="cls-3" x="102.08" y="13.69" width="9.18" height="8.59"/>
+        <rect class="cls-3" x="14.18" y="71.17" width="8.59" height="18.67"/>
+        <rect class="cls-3" x="14.18" y="98.53" width="8.59" height="9.18"/>
+      </g>
+      <rect class="cls-3" x="44.11" y="73.2" width="8.69" height="36.8"/>
+      <rect class="cls-3" x="71.48" y="91.33" width="8.38" height="30.85"/>
+      <rect class="cls-3" x="71.48" y="61.63" width="8.38" height="8.38"/>
+      <rect class="cls-3" x="123.66" y="27.63" width="8.38" height="8.38"/>
+      <rect class="cls-3" x="97.89" y="45.28" width="8.38" height="30.85"/>
+    </g>
+  </g>
+</svg>

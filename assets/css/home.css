@@ -1,0 +1,50 @@
+body {
+    background-image:
+        linear-gradient(rgba(255,255,255,0.025) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,0.025) 1px, transparent 1px);
+    background-size: 32px 32px;
+}
+
+.page {
+    display: grid;
+    grid-template-rows: 1fr auto;
+    min-height: 100dvh;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.hero__title {
+    font-family: var(--font-pixel);
+    font-size: clamp(3rem, 12vw, 7rem);
+    color: var(--yellow);
+    text-shadow: 6px 6px 0 var(--pink), 12px 12px 0 rgba(0,0,0,0.3);
+    letter-spacing: 6px;
+}
+
+.hero__subtitle {
+    font-family: var(--font-pixel);
+    font-size: clamp(0.7rem, 2vw, 0.95rem);
+    color: rgba(253, 204, 97, 0.5);
+    letter-spacing: 4px;
+}
+
+.hero__actions {
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 8px;
+}
+
+.hero__actions .btn {
+    font-size: clamp(0.8rem, 2vw, 1rem);
+    padding: 14px 36px;
+}

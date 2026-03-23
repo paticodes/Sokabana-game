@@ -1,0 +1,11 @@
+:root {
+    --yellow:     #fdcc61;
+    --pink:       #de376f;
+    --deep:       #1a0a2e;
+    --panel:      #2a1148;
+    --border:     #5b3a8a;
+    --white:      #fefefe;
+    --font-pixel: "Pixelify Sans", serif;
+    --font-body:  "Space Grotesk", sans-serif;
+    --cell:       clamp(36px, 6vmin, 56px);
+}

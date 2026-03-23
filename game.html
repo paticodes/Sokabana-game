@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Patricia Bravo & TekGeek_dev" />
+    <meta
+      name="description"
+      content="Sokobana — Jeu de réflexion en Vanilla JavaScript"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Space+Grotesk:wght@300..700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/variables.css" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link rel="stylesheet" href="assets/css/components.css" />
+    <link rel="stylesheet" href="assets/css/game.css" />
+    <script src="assets/script/main.js" type="module" defer></script>
+    <title>Sokobana</title>
+  </head>
+  <body>
+    <div class="app">
+      <header class="header">
+        <h1 class="header__title"><a href="index.html">SOKOBANA</a></h1>
+        <span class="header__level" id="level-indicator">NIVEAU 01 / 10</span>
+      </header>
+
+      <div class="main">
+        <aside class="sidebar">
+          <div class="sidebar__heading">Niveaux</div>
+          <ul class="level-list" id="level-list"></ul>
+          <div class="sidebar__controls">
+            <button class="btn btn--pink" id="reset-button">↺ Reset</button>
+            <button class="btn" id="prev-button">← Préc.</button>
+            <button class="btn" id="next-button">Suiv. →</button>
+          </div>
+        </aside>
+
+        <div class="game-area">
+          <div class="game-container" id="game-container"></div>
+          <div class="dpad">
+            <div class="dpad-row">
+              <button class="dpad-btn dpad-btn--empty"></button>
+              <button class="dpad-btn" data-dir="ArrowUp">▲</button>
+              <button class="dpad-btn dpad-btn--empty"></button>
+            </div>
+            <div class="dpad-row">
+              <button class="dpad-btn" data-dir="ArrowLeft">◄</button>
+              <button class="dpad-btn dpad-btn--empty">·</button>
+              <button class="dpad-btn" data-dir="ArrowRight">►</button>
+            </div>
+            <div class="dpad-row">
+              <button class="dpad-btn dpad-btn--empty"></button>
+              <button class="dpad-btn" data-dir="ArrowDown">▼</button>
+              <button class="dpad-btn dpad-btn--empty"></button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="footer">
+        <span>Programmation Interface 2 · Maxime Pigeon</span>
+        <span>
+          Conçu et codé par
+          <a href="https://github.com/paticodes" target="_blank">@paticodes</a>
+          &amp;
+          <a href="https://github.com/TekGeekdev" target="_blank"
+            >@TekGeek_dev</a
+          >
+        </span>
+        <span>© 2024 Sokobana</span>
+      </footer>
+    </div>
+
+    <div class="win-overlay" id="win-overlay">
+      <h2 class="win-overlay__title">NIVEAU COMPLÉTÉ !</h2>
+      <p class="win-overlay__text">Toutes les caisses sont bien placées.</p>
+      <div class="win-overlay__actions">
+        <button class="btn" id="win-next">Niveau suivant →</button>
+        <button class="btn btn--pink" id="win-reset">↺ Rejouer</button>
+      </div>
+    </div>
+  </body>
+</html>

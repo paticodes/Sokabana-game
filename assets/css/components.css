@@ -1,0 +1,57 @@
+/* Buttons */
+.btn {
+    font-family: var(--font-pixel);
+    font-size: 0.85rem;
+    letter-spacing: 2px;
+    padding: 10px 24px;
+    border: 2px solid var(--yellow);
+    background: transparent;
+    color: var(--yellow);
+    cursor: pointer;
+    display: inline-block;
+    transition: background 0.1s, color 0.1s;
+    white-space: nowrap;
+}
+
+.btn:hover {
+    background: var(--yellow);
+    color: var(--deep);
+}
+
+.btn:active {
+    transform: translateY(2px);
+}
+
+.btn--pink {
+    border-color: var(--pink);
+    color: var(--pink);
+}
+
+.btn--pink:hover {
+    background: var(--pink);
+    color: var(--white);
+}
+
+/* Footer */
+.footer {
+    background: var(--panel);
+    border-top: 2px solid var(--border);
+    padding: 10px 20px;
+    font-family: var(--font-pixel);
+    font-size: 0.65rem;
+    letter-spacing: 1px;
+    color: rgba(253, 204, 97, 0.5);
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.footer a {
+    color: var(--yellow);
+}
+
+.footer a:hover {
+    color: var(--pink);
+}
